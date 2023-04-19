@@ -27,7 +27,7 @@ def test_user_should_see_corect_url(browser):
     link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
     page = LoginPage(browser, link)
     page.open()
-    page.hould_be_login_url()
+    page.should_be_login_url()
 
 def test_user_should_see_login_form(browser):
     link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
